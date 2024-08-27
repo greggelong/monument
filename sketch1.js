@@ -30,6 +30,7 @@ function preload() {
 
 function setup() {
   // put setup code here
+  pixelDensity(1);
   cnv = createCanvas(600, 600);
   let cx = floor((windowWidth - cnv.width) / 2);
   let cy = floor((windowHeight - cnv.height) / 2);
